@@ -59,7 +59,7 @@ public class Browser {
 
     public static void reset() {
         history = new LinkedList<>();
-        currentPosition = -1;
+        currentPosition = 1;
         visitCounts = new HashMap<>();
     }
 
