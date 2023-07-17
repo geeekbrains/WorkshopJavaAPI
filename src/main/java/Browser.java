@@ -5,10 +5,10 @@ public class Browser {
     private static LinkedList<String> history = new LinkedList<>();
 
     // This variable keeps track of the current position in the history
-    private static int currentPosition = -1;
+   //  private static int currentPosition = -1;
 
     // Using a HashMap to keep count of the number of times each URL was visited
-    private static Map<String, Integer> visitCounts = new HashMap<>();
+   //  private static Map<String, Integer> visitCounts = new HashMap<>();
 
     // Visit a new URL
     public static void visit(String url) {
